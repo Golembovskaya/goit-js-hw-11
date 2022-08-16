@@ -3,6 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import NewsApiService from './js/news-service';
 import LoadMoreBtn from './js/load-more-btn';
+
 const refs = {
   searchForm: document.querySelector('#search-form'),
   searchButton: document.querySelector('[data-action="search"]'),
